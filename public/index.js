@@ -61,20 +61,8 @@ const filterList = searchTerm => {
   });
 };
 
-//script to upload photo
+firebase.initializeApp({});
 
-
-
-firebase.initializeApp({
-  apiKey: "AIzaSyBYRLFpxEu5Fs6-mOmTFOSbJhG75N9yiKU",
-  authDomain: "fimple-768e8.firebaseapp.com",
-  projectId: "fimple-768e8",
-  storageBucket: "fimple-768e8.appspot.com",
-  messagingSenderId: "717582333818",
-  appId: "1:717582333818:web:2d7808961400907de788c3",
-  measurementId: "G-PTV5PQ1GQ5"
-  });
-// alert("hey sneha");
 function upload(){
 
 let ref = firebase.storage().ref('images/community');
