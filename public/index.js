@@ -61,7 +61,7 @@ const filterList = searchTerm => {
   });
 };
 
-firebase.initializeApp({});
+firebase.initializeApp({ add your firebase config });
 
 function upload(){
 
