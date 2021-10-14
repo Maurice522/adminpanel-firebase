@@ -1,6 +1,6 @@
 
 
-firebase.initializeApp({});
+firebase.initializeApp({ add your firebase here });
 
 function upload(){
 
