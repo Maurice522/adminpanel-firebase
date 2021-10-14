@@ -15,8 +15,7 @@ const {
     STORAGE_BUCKET,
     MESSAGING_SENDER_ID,
     APP_ID,
-    DATABASE_URL,
-    SECRET
+    DATABASE_URL
 } = process.env;
 
 assert(PORT, 'PORT is required');
@@ -40,7 +39,6 @@ module.exports = {
         authDomain: AUTH_DOMAIN,
         databaseURL: DATABASE_URL,
         storageBucket: STORAGE_BUCKET
-    },
-    secret:SECRET
+    }
     
 }

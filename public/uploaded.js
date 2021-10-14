@@ -33,7 +33,7 @@ uploadTask.then(async(snap) =>{
 // alert("up");
 document.getElementById("filling").animate([
     { transform: 'translateX(0)' },             // keyframes
-    { transform: 'translateX(222px)',     
+    { transform: 'translateX(269px)',     
 }
   ], {
     fill:"forwards",

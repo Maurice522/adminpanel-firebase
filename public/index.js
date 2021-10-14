@@ -98,7 +98,7 @@ console.log("uploaded");
 // alert("up");
 document.getElementById("filling").animate([
   { transform: 'translateX(0)' },             // keyframes
-  { transform: 'translateX(272px)',     
+  { transform: 'translateX(319px)',     
 }
 ], {
   fill:"forwards",

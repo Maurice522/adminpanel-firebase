@@ -96,13 +96,13 @@ h1 {
   width: 10%;
   border-bottom: 2px solid black;
 }
-.photoDetail{
-    display: inline-block;
-    width: 88%;
+.photoDetail {
+  display: inline-block;
+  width: 88%;
 }
-#loading{
+#loading {
   /* background-color: #a4de02; */
-  
+
   position: absolute;
   bottom: 3%;
   width: 150%;
@@ -112,7 +112,7 @@ h1 {
   margin: 0;
   border-bottom: 2px solid #a4de02;
 }
-#filling{
+#filling {
   background-color: #20d84e;
   box-shadow: 0 0 16px #30bd54;
   position: absolute;
@@ -120,7 +120,7 @@ h1 {
   margin: 0;
   padding: 0%;
   width: 150%;
-  left: -532px;
+  left: -610px;
   height: 10px;
   border-radius: 6%;
 }
@@ -130,7 +130,7 @@ h1 {
   right: 0;
   bottom: 15%;
 }
-#mySubmit{
+#mySubmit {
   display: none;
 }
 .submitBtn:hover {
@@ -155,7 +155,7 @@ h1 {
   box-shadow: 0 0 0 black;
   border: none;
 }
-.addIconDiv{
+.addIconDiv {
   margin: 0;
   position: absolute;
   right: 0;
@@ -165,11 +165,9 @@ h1 {
   box-shadow: 0 0 0 black;
   border: none;
 }
-.addicon2{
+.addicon2 {
   color: #a4de02;
   font-size: 26px;
- 
- 
 }
 .detailed label {
   color: #a4de02;
@@ -183,21 +181,20 @@ h1 {
   background-color: black;
 }
 
-.photoAndTags{
-/* background-color: bisque; */
-    position: relative;
-    margin-top: 5%;
+.photoAndTags {
+  /* background-color: bisque; */
+  position: relative;
+  margin-top: 5%;
 }
 
-
 /* styling of tags  */
-.photoDiv{
- /* background-color: #20d84e; */
-    position: absolute;
-    width: 40%;
-    display: inline-block;
-    font-size: 18px;
-    margin-left: 8%;
+.photoDiv {
+  /* background-color: #20d84e; */
+  position: absolute;
+  width: 40%;
+  display: inline-block;
+  font-size: 18px;
+  margin-left: 8%;
 }
 
 .container {
@@ -243,9 +240,9 @@ h1 {
   border-bottom: 1px solid white;
   text-align: left;
 }
-.fa-chevron-down{
-    position: absolute;
-    right: 2%;
+.fa-chevron-down {
+  position: absolute;
+  right: 2%;
 }
 
 .selected::after {
@@ -329,130 +326,132 @@ h1 {
   pointer-events: auto;
 }
 
-
 /* styling the stocks */
 
-.myStocks{
-    width: 100%;
-    margin: 0;
-    margin-top: 5%;
-    padding: 0%;
-/* background-color: aqua; */
-    position: relative;
-    border-bottom: 1px solid white;
-    
+.myStocks {
+  width: 100%;
+  margin: 0;
+  margin-top: 5%;
+  padding: 0%;
+  /* background-color: aqua; */
+  position: relative;
+  border-bottom: 1px solid white;
 }
-.fa-chevron-down{
-    position: absolute;
-    right: 2%;
-    top: 16%;
-    margin: 0;
-    padding: 0;
-    font-size: 14px;
-    color: #a4de02;
+.fa-chevron-down {
+  position: absolute;
+  right: 2%;
+  top: 16%;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #a4de02;
 }
-.stocks{
+.stocks {
   background-color: aqua;
   display: inline-block;
   color: #a4de02;
-  background-color:black;
+  background-color: black;
   width: 20%;
   position: absolute;
   top: 0;
-  margin: 0; 
+  margin: 0;
 }
 
-.stocks p{
-    font-size: 18px;
+.stocks p {
+  font-size: 18px;
 }
 
-.myDropdownStocks{
-    background-color: black;
-    width: 100%;
-    margin: 0;
-    padding:0;
-    position: relative;   
+.myDropdownStocks {
+  background-color: black;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
 
 .choices__input {
-    display: inline-block;
-    vertical-align: baseline;
-    background-color: black;
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: white;
-    width: 0;
-    border: 0;
-    border-radius: 0;
-    padding: 4px 0 4px 2px;
+  display: inline-block;
+  vertical-align: baseline;
+  background-color: black;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: white;
+  width: 0;
+  border: 0;
+  border-radius: 0;
+  padding: 4px 0 4px 2px;
 }
-
 
 .choices__inner {
-    display: inline-block;
-    vertical-align: top;
-    width: 78%;
-    background-color: black;
-    padding: 7.5px 7.5px 3.75px;
-    border: 1px solid black;
-    border-radius: 2.5px;
-    font-size: 18;
-    padding: 1%;
-    min-height: 44px;
-    overflow: hidden;
-    margin-left: 20%;
+  display: inline-block;
+  vertical-align: top;
+  width: 78%;
+  background-color: black;
+  padding: 7.5px 7.5px 3.75px;
+  border: 1px solid black;
+  border-radius: 2.5px;
+  font-size: 18;
+  padding: 1%;
+  min-height: 44px;
+  overflow: hidden;
+  margin-left: 20%;
 }
-.is-focused .choices__inner, .is-open .choices__inner {
-    border-color: black;
+.is-focused .choices__inner,
+.is-open .choices__inner {
+  border-color: black;
 }
 .choices__list--multiple .choices__item.is-highlighted {
-    background-color: black;
-    border: 1px solid black;
+  background-color: black;
+  border: 1px solid black;
 }
 .choices__list--multiple .choices__item {
-    display: inline-block;
-    background-color: black;
-    border: 1px solid black;
-    padding: 4px 10px;
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-    word-break: break-all;
+  display: inline-block;
+  background-color: black;
+  border: 1px solid black;
+  padding: 4px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  word-break: break-all;
 }
 
-.choices[data-type*=select-multiple] .choices__button, .choices[data-type*=text] .choices__button {
-    position: relative;
-    display: inline-block;
-    margin: 0 -4px 0 8px;
-    padding-left: 16px;
-    border-left: 1px solid black;
-    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMSAyMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yLjU5Mi4wNDRsMTguMzY0IDE4LjM2NC0yLjU0OCAyLjU0OEwuMDQ0IDIuNTkyeiIvPjxwYXRoIGQ9Ik0wIDE4LjM2NEwxOC4zNjQgMGwyLjU0OCAyLjU0OEwyLjU0OCAyMC45MTJ6Ii8+PC9nPjwvc3ZnPg==);
-    background-size: 8px;
-    width: 8px;
-    line-height: 1;
-    opacity: .75;
-    border-radius: 0;
+.choices[data-type*="select-multiple"] .choices__button,
+.choices[data-type*="text"] .choices__button {
+  position: relative;
+  display: inline-block;
+  margin: 0 -4px 0 8px;
+  padding-left: 16px;
+  border-left: 1px solid black;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMSAyMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0yLjU5Mi4wNDRsMTguMzY0IDE4LjM2NC0yLjU0OCAyLjU0OEwuMDQ0IDIuNTkyeiIvPjxwYXRoIGQ9Ik0wIDE4LjM2NEwxOC4zNjQgMGwyLjU0OCAyLjU0OEwyLjU0OCAyMC45MTJ6Ii8+PC9nPjwvc3ZnPg==);
+  background-size: 8px;
+  width: 8px;
+  line-height: 1;
+  opacity: 0.75;
+  border-radius: 0;
 }
 
 .is-open .choices__list--dropdown {
-    border-bottom: 1px solid #a4de02;
-    background-color: black;
-    color: white;
+  border-bottom: 1px solid #a4de02;
+  background-color: black;
+  color: white;
 }
 .choices__list--dropdown .choices__item--selectable.is-highlighted {
-    background-color: grey;
+  background-color: grey;
 }
 .choices__list--dropdown .choices__item {
-    position: relative;
-    padding: 13px;
-    font-size: 16px;
+  position: relative;
+  padding: 13px;
+  font-size: 16px;
 }
 
-::-webkit-scrollbar {width: 6px; height: 4px; background: black; }
-::-webkit-scrollbar-thumb { 
-  background-color: #a4de02; 
+::-webkit-scrollbar {
+  width: 6px;
+  height: 4px;
+  background: black;
 }
-
+::-webkit-scrollbar-thumb {
+  background-color: #a4de02;
+}
 
 @media (min-width: 935px) and (max-width: 1110px) {
   .switch {
@@ -473,144 +472,144 @@ h1 {
 }
 
 @media (min-width: 575px) and (max-width: 934px) {
-.info {
-  width: 60%;
-}
-h1 {
-  font-size: 3em;
-}
-.details input {
-  font-size: 12px;
-}
-.details label {
-  font-size: 16px;
-}
-.details input:focus + .label-name .content-name,
-.details input:valid + .label-name .content-name {
-  font-size: 12px;
-}
-.toggleButton p {
-  font-size: 16px;
-}
-.toggleButton2 p {
-  font-size: 16px;
-}
-.switch {
-  position: absolute;
-  top: 0;
-  left: 85%;
-}
-.myToggles {
-  margin-top: 15%;
-}
-.toggleButton2 {
-  position: relative;
-  left: 0;
-  top: 113%;
-}
-.switch2 {
-  position: absolute;
-  top: 25%;
-  left: 85%;
-}
-.myIcon {
-  bottom: 14%;
-  font-size: 18px;
-}
-.select-box .options-container {
-  font-size: 13px;
-}
-.selected {
-  margin-top: 11%;
-  font-size: 14px;
-}
+  .info {
+    width: 60%;
+  }
+  h1 {
+    font-size: 3em;
+  }
+  .details input {
+    font-size: 12px;
+  }
+  .details label {
+    font-size: 16px;
+  }
+  .details input:focus + .label-name .content-name,
+  .details input:valid + .label-name .content-name {
+    font-size: 12px;
+  }
+  .toggleButton p {
+    font-size: 16px;
+  }
+  .toggleButton2 p {
+    font-size: 16px;
+  }
+  .switch {
+    position: absolute;
+    top: 0;
+    left: 85%;
+  }
+  .myToggles {
+    margin-top: 15%;
+  }
+  .toggleButton2 {
+    position: relative;
+    left: 0;
+    top: 113%;
+  }
+  .switch2 {
+    position: absolute;
+    top: 25%;
+    left: 85%;
+  }
+  .myIcon {
+    bottom: 14%;
+    font-size: 18px;
+  }
+  .select-box .options-container {
+    font-size: 13px;
+  }
+  .selected {
+    margin-top: 11%;
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 575px) {
-.info {
-  width: 68%;
-}
-h1 {
-  font-size: 2em;
-}
-.details input {
-  font-size: 8px;
-}
-.details label {
-  font-size: 14px;
-}
-i {
-  font-size: 14px;
-}
-.details input:focus + .label-name .content-name,
-.details input:valid + .label-name .content-name {
-  font-size: 12px;
-}
-.toggleButton p {
-  font-size: 14px;
-}
-.toggleButton2 p {
-  font-size: 14px;
-}
-.switch {
-  position: absolute;
-  top: 0;
-  left: 85%;
-}
-.myToggles {
-  margin-top: 15%;
-}
-.toggleButton2 {
-  position: relative;
-  left: 0;
-}
-.toggleButton2 p {
-  font-size: 14px;
-  padding-top: 17%;
-  color: #a4de02;
-}
-.switch2 {
-  position: absolute;
-  top: 55%;
-  left: 85%;
-}
-.myIcon {
-  bottom: 10%;
-  font-size: 14px;
-}
-.photoAndTags{
-  position: relative;
-  margin-top: 4%;
-}
-.photoDiv{
-position: absolute;
-width: 40%;
-top: 0%;
-font-size: 18px;
-width: 100%;
-font-size: 14px;
-}
+  .info {
+    width: 68%;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  .details input {
+    font-size: 8px;
+  }
+  .details label {
+    font-size: 14px;
+  }
+  i {
+    font-size: 14px;
+  }
+  .details input:focus + .label-name .content-name,
+  .details input:valid + .label-name .content-name {
+    font-size: 12px;
+  }
+  .toggleButton p {
+    font-size: 14px;
+  }
+  .toggleButton2 p {
+    font-size: 14px;
+  }
+  .switch {
+    position: absolute;
+    top: 0;
+    left: 85%;
+  }
+  .myToggles {
+    margin-top: 15%;
+  }
+  .toggleButton2 {
+    position: relative;
+    left: 0;
+  }
+  .toggleButton2 p {
+    font-size: 14px;
+    padding-top: 17%;
+    color: #a4de02;
+  }
+  .switch2 {
+    position: absolute;
+    top: 55%;
+    left: 85%;
+  }
+  .myIcon {
+    bottom: 10%;
+    font-size: 14px;
+  }
+  .photoAndTags {
+    position: relative;
+    margin-top: 4%;
+  }
+  .photoDiv {
+    position: absolute;
+    width: 40%;
+    top: 0%;
+    font-size: 18px;
+    width: 100%;
+    font-size: 14px;
+  }
 
-/* styling of tags  */
-.photoDiv{
-  width: 100%;
-  font-size: 14px;
-}
-.select-box .options-container {
-  font-size: 12px;
-}
-.container {
-bottom: 3%;
-display: inline-block;
-width: 58%;
-padding-right: 0 !important;
-top: 0;
-}
-.selected {
-padding-left:10%;
-background: black;
-border-radius: 8px;
-margin-top: 12%;
-font-size: 12px;
-}
+  /* styling of tags  */
+  .photoDiv {
+    width: 100%;
+    font-size: 14px;
+  }
+  .select-box .options-container {
+    font-size: 12px;
+  }
+  .container {
+    bottom: 3%;
+    display: inline-block;
+    width: 58%;
+    padding-right: 0 !important;
+    top: 0;
+  }
+  .selected {
+    padding-left: 10%;
+    background: black;
+    border-radius: 8px;
+    margin-top: 12%;
+    font-size: 12px;
+  }
 }
